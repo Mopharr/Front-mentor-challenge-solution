@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | 3-column preview card component</title>
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    
+    body{
+      background-color: #fff;
+    }
+    .row{
+      display: flex;
+      justify-content: center;
+      top: 50%;
+      left: 0%;
+      transform: translate(0%, 50%);
+    }
+
+    .sedans{
+      background-color: hsl(31, 77%, 52%);
+      color: #fff;
+      border-radius: 4px;
+      width: 200px;
+      height: 500px;
+      font-family: 'Lexend', sans-serif;
+      padding: 20px 30px;
+    }
+    .sedans h2{
+      font-size: 40px;
+      font-weight: 700;
+      color: hsl(0, 0%, 95%);
+    }
+    .sedans p{
+      font-size: 15px;
+      font-weight:300 ;
+      text-align: start;
+      color: hsla(0, 0%, 100%, 0.75);
+      margin: 15px 20px 120px;
+    }
+    .sedans a{
+      text-decoration: none;
+      color: hsl(0, 0%, 95%);
+      border: 2px solid #fff;
+      border-radius: 50px;
+      padding: 15px 20px;
+    }
+    .suvs{
+      background-color: hsl(184, 100%, 22%);
+      color: #fff;
+      border-radius: 4px;
+      width: 200px;
+      height: 500px;
+      font-family: 'Lexend', sans-serif;
+      padding: 20px 30px;
+    }
+    .suvs h2{
+      font-size: 40px;
+      font-weight: 700;
+      color: hsl(0, 0%, 95%);
+    }
+    .suvs p{
+      font-size: 15px;
+      font-weight:300 ;
+      text-align: start;
+      color: hsla(0, 0%, 100%, 0.75);
+      margin: 15px 20px 120px;
+    }
+    .suvs a{
+      text-decoration: none;
+      color: hsl(0, 0%, 95%);
+      border: 2px solid #fff;
+      border-radius: 50px;
+      padding: 15px 20px;
+    }
+    .luxury{
+      background-color: hsl(179, 100%, 13%);
+      color: #fff;
+      border-radius: 4px;
+      width: 200px;
+      height: 500px;
+      font-family: 'Lexend', sans-serif;
+      padding: 20px 30px;
+    }
+    .luxury h2{
+      font-size: 40px;
+      font-weight: 700;
+      color: hsl(0, 0%, 95%);
+    }
+    .luxury p{
+      font-size: 15px;
+      font-weight:300 ;
+      text-align: start;
+      color: hsla(0, 0%, 100%, 0.75);
+      margin: 15px 20px 120px;
+    }
+    .luxury a{
+      text-decoration: none;
+      color: hsl(0, 0%, 95%);
+      border: 2px solid #fff;
+      border-radius: 50px;
+      padding: 15px 20px;
+    }
+
+    @media all and (max-width: 375px) {
+      .row{
+        display: grid;
+        top: 0%;
+        left: 0%;
+        transform: translate(0%,0%);
+        padding-top: 20px ;
+        padding-bottom: 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+  
+
+  <div class="container-fluid">
+    <div class="row col">
+      <div class="sedans">
+        <img src="./images/icon-sedans.svg" alt="" srcset="">
+        <h2>SEDANS</h2>
+        <p>Choose a sedan for its affordability and excellent fuel
+          economy. Ideal for cruising in the city or on your next road trip
+        </p>
+        <a href="#"> Learn More</a>
+      </div>
+      <div class="suvs">
+        <img src="./images/icon-suvs.svg" alt="" srcset="">
+        <h2>SUVS</h2>
+        <p>Take an SUV for its spacious interior, power and versatility. perfect for you next family
+          vacation and off-road adventure
+        </p>
+        <a href="#"> Learn More</a>
+      </div>
+      <div class="luxury">
+        <img src="./images/icon-luxury.svg" alt="" srcset="">
+        <h2>LUXURY</h2>
+        <p>Cruise in the best car brands without the bloated prices.
+          Enjoy the enhances comfort of a luxury rental and arrove in style.
+        </p>
+        <a href="#"> Learn More</a>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+</body>
+</html>
